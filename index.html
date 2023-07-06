@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/fa698c270b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 id="head"><span>C</span> handru.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span id="name">Chandrashekar H C</span></h1>
+                <p>Java full stack development Intern</p>
+            </div>
+        </div>
+    </div>
+
+    <!---------------about section --------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/chandru photo.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>L"Hello, everyone! My name is Chandrashekar, and I am thrilled to introduce myself as a Computer Science 
+                        and Engineering graduate. I have recently completed my Bachelor's degree in this exciting field, and I
+                         am eager to embark on a promising career in the tech industry.Aside from my technical skills, I possess excellent
+                          communication and collaboration abilities. I enjoy working with diverse teams, leveraging different perspectives to achieve shared
+                           goals. I am a quick learner, always eager to explore new technologies and stay up-to-date with industry trends.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021</span><br>Explore Karnataka</li>
+                            <li><span> 2022</span><br>Rewamping of Contriver Website</li>
+                            <li><span> 2022</span><br>Dron Photography Website Using DJANGO,HTML,CSS AND JAVASCRIPT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>BE from VTU university with 8.29 CGPA</li>
+                            <li><span>2019</span><br>PUC From St. Joseph's Hunsur with 74.16%</li>
+                            <li><span>2017</span><br>10th From St. Joseph's Hunsur with 73.92%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------Services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Technical Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Java</h2>
+                    <p> my proficiency in Java, along with my understanding of its ecosystem and best practices, equips me to develop high-quality and scalable software solutions. I am eager to apply my Java expertise in challenging projects and contribute to the success of an organization.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Python</h2>
+                    <p>Proficient in Python programming language, with a strong understanding of its syntax, data structures, and core concepts. Experienced in developing Python applications and utilizing Python libraries and frameworks for efficient and scalable solutions. Skilled in implementing object-oriented programming principles to write clean and modular code. Familiar with various Python frameworks such as Django and Flask for web development and have hands-on experience in creating RESTful APIs. </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>HTML & CSS</h2>
+                    <p>Proficient in HTML and CSS for building responsive and visually appealing web pages.
+                        Solid understanding of HTML5 and CSS3 standards, including semantic markup and modern layout techniques.
+                        Experience in writing clean, well-structured HTML and CSS code that is easily maintainable and scalable.
+                        Familiarity with CSS frameworks like Bootstrap and responsive design principles to create mobile-friendly websites.
+                        Knowledge of cross-browser compatibility and troubleshooting common HTML/CSS issues.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ---------------------------portfolioo------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/HAMPI-Vijayanagara-1.jpg" alt="">
+                    <div class="layer">
+                        <h3> Explore Karnataka Website</h3>
+                        <p> The "Explore Karnataka" website project aims to create an informative and user-friendly online platform that showcases the diverse attractions, culture, heritage, and natural beauty of the state of Karnataka, India. The website will serve as a one-stop destination for tourists, travelers, and locals who are interested in exploring the various destinations and experiences Karnataka has to offer.</p>
+                             <a href=""><i class="fa-solid fa-link"></i></a>
+    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/contriver.jpg" alt="">
+                    <div class="layer">
+                        <h3>Rwamping of Contriver Website</h3>
+                        <p> We revamped the Contriver website, using wordpress. </p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/DronePhotography1.webp" alt="">
+                    <div class="layer">
+                        <h3>Drone photography website</h3>
+                        <p> Drone photography website using  DJANGO, HTML, CSS and Javascript</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            
+        </div>
+    </div>
+
+    <!-- ------------------------contact---------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>Chandrashekarcgowda3@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7975500406</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/chandrashekar.hc.5201"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chandrashekar-c-gowda-22aab624a/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/Chandrashekar's Resume (1).pdf" download class="btn btn2">DOWNLOAD CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@copyright</p>
+        </div>
+    </div>
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
